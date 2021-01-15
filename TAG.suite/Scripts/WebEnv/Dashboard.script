@@ -1,0 +1,4 @@
+﻿to handle Farms
+	GenericFunctions.ClickEvent "text","Farms","TopLeftQuadrant"
+	GenericFunctions.VerifyEndpoint "text","ADD FARM","TopRightQuadrant"
+end Farms

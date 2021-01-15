@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1610466908.9308939,
+  "ocrcapturestring" : ".0",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : ".0",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[17,15]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "icons\/Rectangle.png",
+      "capturerect" : [
+        200,
+        48,
+        34,
+        30
+      ]
+    }
+  ],
+  "createddate" : 1610466908.9308939,
+  "lastfoundlocation" : [
+    200,
+    48,
+    34,
+    30
+  ],
+  "originalcapturelocation" : [
+    200,
+    48,
+    34,
+    30
+  ],
+  "lastfounddate" : 1610709862.4223452,
+  "name" : "icons\/Rectangle"
+}

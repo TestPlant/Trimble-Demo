@@ -1,0 +1,31 @@
+﻿to handle AddField
+	GenericFunctions.ClickEvent "text","ADD FIELD","TopRightQuadrant"
+	GenericFunctions.VerifyEndpoint "image", "Icons/MapLayers","BottomRightQuadrant"
+end AddField
+
+to handle MapOutFarm
+	set Myvar to random(3)
+	repeat 2 times
+		if myvar = 3 then draganddrop [760,430],[1131,586]
+		if myvar = 2 then draganddrop [1247,659],[1724,813]
+		if myvar = 1 then draganddrop [974,821],[1251,629]
+	end repeat
+
+	wait 1
+	GenericFunctions.ClickEvent "image", "Icons/polygon"
+	repeat with each item of [[1122,712],[1122,712], [1317,587], [1344,588], [1404,568], [1503,541], [1509,603], [1496,655], [1524,663], [1484,731], [1454,732], [1434,743], [1395,708], [1354,702], [1329,726], [1309,770], [1323,821], [1315,833], [1122,712]]
+		Click it
+		wait 0.3
+	end repeat	
+end MapOutFarm
+
+to handle FieldName
+	GenericFunctions.ClickFormEvent "text","Field Name","TopLeftQuadrant"
+	Set Universal FieldName to "Field of Dreams"&&random(100) 
+	GenericFunctions.TextEntry Universal FieldName
+end FieldName
+
+to handle SaveBtn
+	GenericFunctions.ClickEvent "image","Icons/SaveBtn","BottomRightQuadrant"
+	GenericFunctions.VerifyEndpoint "text","Field of Dreams"
+end SaveBtn

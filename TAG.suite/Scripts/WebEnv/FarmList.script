@@ -1,0 +1,24 @@
+﻿to handle AddFarm
+	GenericFunctions.ClickEvent "text","ADD FARM","TopRightQuadrant"
+end AddFarm
+
+to handle Fields
+	GenericFunctions.ClickEvent "text","FIELDS","TopLeftQuadrant"
+	GenericFunctions.VerifyEndpoint "text","ADD FIELD","TopRightQuadrant"
+end Fields
+
+to handle FarmName
+	GenericFunctions.ClickFormEvent "text","Farm Name","VerticalMiddle"
+	GenericFunctions.TextEntry "field of dreams"&&random(100)
+end FarmName
+
+to handle FSANumber
+	GenericFunctions.ClickFormEvent "text","FSA Number","VerticalMiddle"
+	GenericFunctions.TextEntry "FS4897"
+end FSANumber
+
+to handle Client
+	GenericFunctions.ClickFormEvent "text","Client","VerticalMiddle"
+	GenericFunctions.ClickFormEvent "text","Jon","VerticalMiddle"
+end Client
+

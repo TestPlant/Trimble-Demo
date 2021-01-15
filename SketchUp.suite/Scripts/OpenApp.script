@@ -1,0 +1,3 @@
+﻿typetext windowsKey, "r"
+wait 0.5
+typetext "C:\Program Files\SketchUp\SketchUp 2021\SketchUp.exe",return

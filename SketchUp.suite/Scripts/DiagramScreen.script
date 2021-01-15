@@ -1,0 +1,73 @@
+﻿to handle Selecttab
+	GenericFunctions.ClickEvent "text","Scene 4"
+	waitforall 10,{text:"Let's Draw!"}
+	put imagelocation(text:"Click here first",waitfor:20) into Universal Origins
+end Selecttab
+
+to handle drawFrontLine
+	GenericFunctions.ClickEvent "image","icons/Pencil"
+	put Universal Origins+[528,-64] into Startpoint
+	put Universal Origins+[58,165] into Endpoint
+	GenericFunctions.DDEvent Startpoint,Endpoint
+end drawFrontLine
+
+to handle drawBackLine
+	put Universal Origins+[386,-80] into Startpoint
+	put Universal Origins+[-126,103] into Endpoint
+	GenericFunctions.DDEvent Startpoint,Endpoint
+end drawBackLine
+
+to handle drawTopLine
+	put Universal Origins+[386,-80] into Startpoint
+	put Universal Origins+[528,-64] into Endpoint
+	GenericFunctions.DDEvent Startpoint,Endpoint
+end drawTopLine
+
+to handle drawBottomLine
+	put Universal Origins+[-126,103]  into Startpoint
+	put Universal Origins+[58,165] into Endpoint
+	GenericFunctions.DDEvent Startpoint,Endpoint
+end drawBottomLine
+
+to handle RaiseBuilding
+	GenericFunctions.ClickEvent "image","icons/PushPull"
+	GenericFunctions.DDEvent [930,734],[835,492]
+end RaiseBuilding
+
+to handle RoofLine
+	GenericFunctions.ClickEvent "image","icons/Pencil"
+	put Universal Origins+[-58,-159] into Universal Startpoint
+	put Universal Origins+[459,-240] into Universal Endpoint
+	GenericFunctions.DDEvent Universal Startpoint,Universal Endpoint
+end RoofLine
+
+to handle RaiseRoof
+	GenericFunctions.ClickEvent "image","icons/MoveTool"
+	GenericFunctions.DDEvent [1069,486],[1069,386]
+end RaiseRoof
+
+to handle WallOffset
+	GenericFunctions.ClickEvent "image","icons/Offset"
+	Click Universal Origins
+	wait 0.5
+	Click [Universal Origins.x +50,Universal Origins.y]
+end WallOffset
+
+to handle PushBackWall
+	GenericFunctions.ClickEvent "image","icons/PushPull"
+	put imagelocation(image:"PointReff",waitfor:10) into Startpoint
+	GenericFunctions.DDEvent Startpoint,[Startpoint.x + 30,Startpoint.y]
+end PushBackWall
+
+to handle CreateWindow
+	GenericFunctions.ClickEvent "image","icons/Rectangle"
+	put imagerectangle(image:"HouseCorner").bottomleft into Startpoint
+	put Startpoint+[-140,140] into Endpoint
+	GenericFunctions.DDEvent Startpoint,Endpoint
+	put Startpoint+[-70,70] into Universal Windowspace
+end CreateWindow
+
+to handle PushBackWindow
+	GenericFunctions.ClickEvent "image","icons/PushPull"
+	GenericFunctions.DDEvent Universal Windowspace,Universal Windowspace+[-20,0]
+end PushBackWindow

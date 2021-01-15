@@ -1,0 +1,21 @@
+﻿{
+    CaptureDate = "2021-01-12 15:36:45 +0000";
+    CaptureHost = "Windows_10";
+    CaptureScreenSize =     (
+        1920,
+        1080
+    );
+    HasAlpha = 1;
+    HotSpotX = 12;
+    HotSpotY = 13;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 335;
+    OriginalLocationY = 50;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "icons/MoveTool";
+    tags =     (
+    );
+}

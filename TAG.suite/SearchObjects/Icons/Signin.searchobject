@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1610627706.1517649,
+  "ocrcapturestring" : "Sign in",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "Sign in",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_58",
+        "HotSpot" : "[56,13]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "Icons\/Signin.png",
+      "capturerect" : [
+        906,
+        426,
+        112,
+        27
+      ]
+    }
+  ],
+  "createddate" : 1610627706.1517649,
+  "lastfoundlocation" : [
+    906,
+    426,
+    112,
+    27
+  ],
+  "originalcapturelocation" : [
+    906,
+    426,
+    112,
+    27
+  ],
+  "lastfounddate" : 1610710446.960989,
+  "name" : "Icons\/Signin"
+}

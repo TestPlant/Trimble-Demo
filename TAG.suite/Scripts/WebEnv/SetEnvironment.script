@@ -1,0 +1,11 @@
+﻿to handle DeviceConnection
+	Connect "Windows_10"
+end DeviceConnection
+
+to handle OpenURL 
+	typetext windowskey,"r"
+	wait 1
+	typetext "chrome"&&"https://www.trimbleag.com/farmmanagement#ads/agridata5/bins/field_profiler.asp",return
+	waitfor 20,{image:"Logos/Trimble"}
+end OpenURL
+

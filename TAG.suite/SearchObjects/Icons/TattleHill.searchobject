@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1610660287.5308518,
+  "testlocationdata" : [
+    {
+      "name" : "Icons\/TattleHill.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[37,46]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "10.145.138.111",
+      "capturerect" : [
+        791,
+        672,
+        75,
+        93
+      ]
+    }
+  ],
+  "createddate" : 1610660287.5308509,
+  "lastfoundlocation" : [
+    779,
+    663,
+    75,
+    93
+  ],
+  "originalcapturelocation" : [
+    791,
+    672,
+    75,
+    93
+  ],
+  "lastfounddate" : 1610661334.559952,
+  "name" : "Icons\/TattleHill"
+}

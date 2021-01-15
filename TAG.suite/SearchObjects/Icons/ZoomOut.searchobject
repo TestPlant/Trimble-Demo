@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1610647954.319526,
+  "ocrcapturestring" : "+",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "+",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[9,35]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "Icons\/ZoomOut.png",
+      "capturerect" : [
+        540,
+        826,
+        20,
+        43
+      ]
+    }
+  ],
+  "createddate" : 1610647954.319526,
+  "lastfoundlocation" : [
+    540,
+    826,
+    20,
+    43
+  ],
+  "originalcapturelocation" : [
+    540,
+    826,
+    20,
+    43
+  ],
+  "lastfounddate" : 1610661474.5268269,
+  "name" : "Icons\/ZoomOut"
+}

@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1610627438.114013,
+  "ocrcapturestring" : "^Trimble",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "^Trimble",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_65",
+        "HotSpot" : "[155,47]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "Logos\/Trimble.png",
+      "capturerect" : [
+        798,
+        186,
+        311,
+        94
+      ]
+    }
+  ],
+  "createddate" : 1610627438.114013,
+  "lastfoundlocation" : [
+    798,
+    186,
+    311,
+    94
+  ],
+  "originalcapturelocation" : [
+    798,
+    186,
+    311,
+    94
+  ],
+  "lastfounddate" : 1610710537.1034951,
+  "name" : "Logos\/Trimble"
+}

@@ -1,0 +1,14 @@
+﻿
+to handle ClickEvent DataType,MyItem
+	if DataType = "text" then Click{(DataType):MyItem,caseSensitive:"yes",waitfor:100}
+	if DataType = "image" then Click{(DataType):MyItem,waitfor:100}
+end ClickEvent
+
+to handle DDEvent StartLocation,StopLocation
+	draganddrop StartLocation,StopLocation
+end DDEvent
+
+to handle DeviceConnection
+	Connect "Windows_10"
+	Waitfor 10, {text:"Type here to search",searchrectangle:ScreenPart("BottomLeftQuadrant"),caseSensitive:"yes"}
+end DeviceConnection

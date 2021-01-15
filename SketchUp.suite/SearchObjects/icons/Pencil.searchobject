@@ -1,0 +1,75 @@
+{
+  "lastmodifieddate" : 1610540858.9641352,
+  "ocrcapturestring" : "\/",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "\/",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[14,12]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "icons\/Pencil.png",
+      "capturerect" : [
+        91,
+        49,
+        28,
+        25
+      ]
+    },
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "\/",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : 50,
+        "HotSpot" : "[14,12]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "icons\/Pencil.png",
+      "capturerect" : [
+        91,
+        49,
+        28,
+        25
+      ]
+    }
+  ],
+  "createddate" : 1610464648.310461,
+  "lastfoundlocation" : [
+    91,
+    49,
+    28,
+    25
+  ],
+  "originalcapturelocation" : [
+    91,
+    49,
+    28,
+    25
+  ],
+  "lastfounddate" : 1610709849.4720302,
+  "name" : "icons\/Pencil"
+}

@@ -1,0 +1,23 @@
+﻿{
+    CaptureDate = "2021-01-12 15:17:15 +0000";
+    CaptureHost = "Windows_10";
+    CaptureScreenSize =     (
+        1920,
+        1080
+    );
+    HasAlpha = 1;
+    HotSpotX = 14;
+    HotSpotY = 12;
+    ImageDescription = {length = 0, bytes = 0x};
+    ImageTolerance = 50;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 91;
+    OriginalLocationY = 49;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "icons/Pencil";
+    tags =     (
+    );
+}

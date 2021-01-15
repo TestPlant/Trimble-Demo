@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1610636308.9365811,
+  "ocrcapturestring" : "□",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "□",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[15,13]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "Icons\/User.png",
+      "capturerect" : [
+        1720,
+        117,
+        31,
+        27
+      ]
+    }
+  ],
+  "createddate" : 1610636308.9365811,
+  "lastfoundlocation" : [
+    1720,
+    117,
+    31,
+    27
+  ],
+  "originalcapturelocation" : [
+    1720,
+    117,
+    31,
+    27
+  ],
+  "lastfounddate" : 1610710533.1800761,
+  "name" : "Icons\/User"
+}

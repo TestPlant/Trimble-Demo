@@ -1,0 +1,4 @@
+﻿to handle RecentFile
+	GenericFunctions.ClickEvent "text","tutorial"
+	waitfor 100,{text:"Welcome to SketchUp!"}
+end RecentFile

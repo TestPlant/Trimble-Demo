@@ -1,0 +1,21 @@
+﻿to handle SearchFields
+	GenericFunctions.ClickEvent "text","Search"
+	GenericFunctions.VerifyEndpoint "text","space"
+	Typetext  Universal FieldName,return
+end SearchFields
+
+to handle SelectField
+	GenericFunctions.ClickEvent "text",Universal FieldName,"HorizontalMiddle"
+	GenericFunctions.VerifyEndpoint "text","Field Details"
+end SelectField
+
+to handle FieldDetails
+	GenericFunctions.ClickEvent "image","Icons/information"
+	GenericFunctions.VerifyEndpoint "text","Dismiss"
+	repeat with each item of ["Name","Hectares","Farm Name","Crop","Description","Variety","Perennial","Soil Type","Previous Crop"]
+		put imagerectangle(text:it) into origin
+		put origin.topright+[0,-5] into TL
+		put [RemoteScreenSize().x,origin.bottomright.y]+[0,5] into BR
+		log it && readtext(TL,BR)
+	end repeat
+end FieldDetails

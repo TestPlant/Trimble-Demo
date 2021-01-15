@@ -1,0 +1,26 @@
+﻿to handle ClickEvent DataType,MyItem,MyArea
+	if MyArea is empty then Set MyArea to "FullScreen"
+	Click {(DataType):MyItem,waitfor:20,searchrectangle:ScreenPart(MyArea)}
+end ClickEvent
+
+to handle ClickFormEvent DataType,MyItem,MyArea
+	if MyArea is empty then Set MyArea to "FullScreen"
+	Click imagelocation((DataType):MyItem,waitfor:20,searchrectangle:ScreenPart(MyArea))+[150,0]
+end ClickFormEvent
+
+
+to handle TextEntry MyItem
+	typetext controlKey,"a"
+	typetext MyItem
+end TextEntry
+
+to handle VerifyEndpoint DataType,MyItem,MyArea
+	if MyArea is empty then Set MyArea to "FullScreen"
+	waitfor 20,{(DataType):MyItem,searchrectangle:ScreenPart(MyArea)}
+end VerifyEndpoint
+
+to handle CloseBrowser
+	typetext windowsKey,"r"
+	wait 1
+	typetext "taskkill /IM"&&"chrome.exe",return
+end CloseBrowser

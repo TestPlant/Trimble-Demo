@@ -1,0 +1,3 @@
+﻿typetext altkey,f4
+waitfor 20,{text:"Save changes to tutorial.skp?",searchrectangle:ScreenPart("Center")}
+Click{text:"No",searchrectangle:ScreenPart("Center"),waitfor:20}

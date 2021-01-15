@@ -1,0 +1,9 @@
+﻿to handle LaunchMobileApplication
+	Connect "iPhone_11"
+	LaunchApp "net.agri-data.agridatamobile"
+	waitfor 20,{text:"Trimble"}
+end LaunchMobileApplication
+
+to handle KillMobileApplication
+	KillApp "net.agri-data.agridatamobile"
+end KillMobileApplication

@@ -1,0 +1,10 @@
+﻿to handle Logout
+	RUN "WebEnv/SetEnvironment".DeviceConnection
+	GenericFunctions.ClickEvent "image","Icons/User","TopRightQuadrant"
+	GenericFunctions.ClickEvent "text","Sign Out","TopRightQuadrant"
+	GenericFunctions.VerifyEndpoint "image","Logos/Trimble"
+end Logout
+
+to handle SaveBtn
+	GenericFunctions.ClickEvent "image","Icons/SaveBtn","VerticalMiddle"
+end SaveBtn

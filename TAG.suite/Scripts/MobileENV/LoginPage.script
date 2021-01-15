@@ -1,0 +1,18 @@
+﻿to handle Email
+	GenericFunctions.ClickEvent "text","Email"
+	wait 2
+	GenericFunctions.VerifyEndpoint "text","space","BottomHalf"
+	typetext "eggplant.techacc@gmail.com"
+	set the searchrectangle to fullscreen
+end Email
+
+to handle Password
+	GenericFunctions.ClickEvent "text","Password"
+	wait 2
+	typetext "3ggPl4nt-6sh"
+	set the searchrectangle to fullscreen
+end Password
+
+to handle SignIn
+	GenericFunctions.ClickEvent "text","Sign in"
+end SignIn

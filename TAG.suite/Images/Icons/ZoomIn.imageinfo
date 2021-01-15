@@ -1,0 +1,25 @@
+﻿{
+    CaptureDate = "2021-01-14 16:41:01 +0000";
+    CaptureHost = "Windows_10";
+    CaptureScreenSize =     (
+        1920,
+        1080
+    );
+    CropRectangle = "2,2,28,46";
+    HasAlpha = 1;
+    HotSpotX = 12;
+    HotSpotY = 10;
+    ImageDescription = {length = 0, bytes = 0x};
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 534;
+    OriginalLocationY = 825;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "Icons/ZoomIn";
+    SearchRectangle = "NSRect: {{0, 540}, {960, 540}}";
+    WaitFor = 20;
+    tags =     (
+    );
+}

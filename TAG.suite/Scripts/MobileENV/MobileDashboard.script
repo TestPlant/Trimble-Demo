@@ -1,0 +1,10 @@
+﻿to handle FieldsSection
+	GenericFunctions.ClickEvent "text","Fields"	
+end FieldsSection
+
+to handle DataSync
+	GenericFunctions.ClickEvent "image","Icons/Sync"
+	repeat until not imagefound(text:"syncronizing data",searchrectangle:ScreenPart("Center"))
+		wait 0.5
+	end repeat
+end DataSync

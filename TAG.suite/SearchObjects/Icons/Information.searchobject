@@ -1,0 +1,54 @@
+{
+  "lastmodifieddate" : 1610706895.4370809,
+  "ocrcapturestring" : "o",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "device" : "iPhone12,1",
+        "os" : "OSX",
+        "device_os_version" : "iOS 14.3",
+        "os_version" : "10.15.7",
+        "version" : "5.7",
+        "type" : "iOS Gateway",
+        "device_type" : "iPhone 11"
+      },
+      "connectionname" : "iPhone_11",
+      "connectionportnum" : 5971,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "o",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[16,16]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "Icons\/Information.png",
+      "capturerect" : [
+        325,
+        55,
+        32,
+        32
+      ]
+    }
+  ],
+  "createddate" : 1610706880.7692509,
+  "lastfoundlocation" : [
+    325,
+    55,
+    32,
+    32
+  ],
+  "originalcapturelocation" : [
+    325,
+    55,
+    32,
+    32
+  ],
+  "lastfounddate" : 1610710517.5493588,
+  "name" : "Icons\/Information"
+}

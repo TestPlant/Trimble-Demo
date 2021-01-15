@@ -1,0 +1,75 @@
+{
+  "lastmodifieddate" : 1610546315.609937,
+  "ocrcapturestring" : "r",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "r",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[39,28]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "PointReff.png",
+      "capturerect" : [
+        768,
+        767,
+        78,
+        56
+      ]
+    },
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "r",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : 100,
+        "HotSpot" : "[39,28]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "PointReff.png",
+      "capturerect" : [
+        768,
+        767,
+        78,
+        56
+      ]
+    }
+  ],
+  "createddate" : 1610543913.8054371,
+  "lastfoundlocation" : [
+    768,
+    659,
+    78,
+    56
+  ],
+  "originalcapturelocation" : [
+    768,
+    767,
+    78,
+    56
+  ],
+  "lastfounddate" : 1610709860.058485,
+  "name" : "PointReff"
+}

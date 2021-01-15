@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1610465820.1225839,
+  "ocrcapturestring" : "❖",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "10.145.138.111",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Windows_10",
+      "connectionportnum" : 5966,
+      "connectiontype" : "vnc",
+      "capturedocrtext" : "❖",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[12,13]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "icons\/MoveTool.png",
+      "capturerect" : [
+        335,
+        50,
+        25,
+        26
+      ]
+    }
+  ],
+  "createddate" : 1610465820.1225829,
+  "lastfoundlocation" : [
+    335,
+    50,
+    25,
+    26
+  ],
+  "originalcapturelocation" : [
+    335,
+    50,
+    25,
+    26
+  ],
+  "lastfounddate" : 1610709853.0302701,
+  "name" : "icons\/MoveTool"
+}
