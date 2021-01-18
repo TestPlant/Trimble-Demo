@@ -1,6 +1,7 @@
-﻿to handle Logout
+﻿to handle Logout 
 	RUN "WebEnv/SetEnvironment".DeviceConnection
 	GenericFunctions.ClickEvent "image","Icons/User","TopRightQuadrant"
+	GenericFunctions.VerifyEndpoint "text","Pritesh Modi","TopRightQuadrant"
 	GenericFunctions.ClickEvent "text","Sign Out","TopRightQuadrant"
 	GenericFunctions.VerifyEndpoint "image","Logos/Trimble"
 end Logout
@@ -8,3 +9,8 @@ end Logout
 to handle SaveBtn
 	GenericFunctions.ClickEvent "image","Icons/SaveBtn","VerticalMiddle"
 end SaveBtn
+
+to handle BackHome
+	GenericFunctions.ClickEvent "text","Home","TopLeftQuadrant"
+	GenericFunctions.VerifyEndpoint "text","FARM SETUP","TopLeftQuadrant"
+end BackHome

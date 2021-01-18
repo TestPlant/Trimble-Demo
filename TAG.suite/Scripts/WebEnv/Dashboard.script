@@ -2,3 +2,18 @@
 	GenericFunctions.ClickEvent "text","Farms","TopLeftQuadrant"
 	GenericFunctions.VerifyEndpoint "text","ADD FARM","TopRightQuadrant"
 end Farms
+
+to handle Equipment
+	GenericFunctions.ClickEvent "text","Equipment","TopLeftQuadrant"
+	GenericFunctions.VerifyEndpoint "text","EQUIPMENT","TopLeftQuadrant"
+end Equipment
+
+to handle Commodities
+	GenericFunctions.ClickEvent "text","Commodities","TopRightQuadrant"
+	GenericFunctions.VerifyEndpoint "text","COMMODITIES","TopLeftQuadrant"
+end Commodities
+
+to handle Contacts
+	GenericFunctions.ClickEvent "text","Contacts","TopRightQuadrant"
+	GenericFunctions.VerifyEndpoint "text","PEOPLE","TopLeftQuadrant"
+end Contacts

@@ -1,0 +1,6 @@
+﻿to handle VerifyPageLoad
+	GenericFunctions.ClickEvent "text","VEHICLES","TopLeftQuadrant"
+	GenericFunctions.VerifyEndpoint "text","Name","TopLeftQuadrant"
+	GenericFunctions.ClickEvent "text","DEVICES","TopLeftQuadrant"
+	GenericFunctions.VerifyEndpoint "text","All devices","TopLeftQuadrant"
+end VerifyPageLoad

@@ -1,0 +1,6 @@
+﻿to handle VerifyPageLoad
+	GenericFunctions.ClickEvent "text","CROPS","MainBody"
+	GenericFunctions.VerifyEndpoint "text","There are no crops in this organization","MainBody"
+	GenericFunctions.ClickEvent "text","CROP SEASON","MainBody"
+	GenericFunctions.VerifyEndpoint "text","There are no crop seasons in this organization","MainBody"
+end VerifyPageLoad

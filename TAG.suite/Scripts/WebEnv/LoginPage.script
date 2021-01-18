@@ -12,4 +12,5 @@ end Password
 
 to handle SignIn
 	GenericFunctions.ClickEvent "Image","Icons/Signin","Center"
+	GenericFunctions.VerifyEndpoint "text","FARM SETUP","TopLeftQuadrant"
 end SignIn

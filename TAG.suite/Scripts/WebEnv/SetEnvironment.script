@@ -1,11 +1,18 @@
 ﻿to handle DeviceConnection
 	Connect "Windows_10"
+	set the textstyle.caseSensitive to yes
 end DeviceConnection
 
-to handle OpenURL 
+to handle OpenURL LoginFlag
 	typetext windowskey,"r"
 	wait 1
 	typetext "chrome"&&"https://www.trimbleag.com/farmmanagement#ads/agridata5/bins/field_profiler.asp",return
-	waitfor 20,{image:"Logos/Trimble"}
+	if imagefound(10,image:"Logos/Trimble") then
+		Set LoginFlag to false
+	Else
+		Set LoginFlag to true
+	end if
+	log LoginFlag
+	return LoginFlag
 end OpenURL
 

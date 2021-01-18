@@ -1,0 +1,24 @@
+﻿to handle FirstName
+	GenericFunctions.ClickFormEvent "text","First Name","HorizontalMiddle"
+	GenericFunctions.TextEntry "Bill"
+end FirstName
+
+to handle LastName
+	GenericFunctions.ClickFormEvent "text","Last Name","HorizontalMiddle"
+	GenericFunctions.TextEntry "Schmitt"
+end LastName
+
+to handle JobTitle
+	GenericFunctions.ClickFormEvent "text","Job title","HorizontalMiddle"
+	GenericFunctions.TextEntry "Agricultural Inspector"
+end JobTitle
+
+to handle Email
+	GenericFunctions.ClickFormEvent "text","Email","HorizontalMiddle"
+	GenericFunctions.TextEntry "Bill.Schmitt@gmail.co.uk"
+end Email
+
+to handle Cancel
+	GenericFunctions.ClickEvent "text","CANCEL","BottomRightQuadrant"
+	GenericFunctions.VerifyEndpoint "text","All Contacts","TopLeftQuadrant"
+end Cancel

@@ -1,0 +1,9 @@
+﻿to handle Manage
+	GenericFunctions.ClickEvent "text","MANAGE","TopRightQuadrant"
+end Manage
+
+to handle AddUser
+	GenericFunctions.ClickEvent "text","Add Contact","TopRightQuadrant"
+	GenericFunctions.VerifyEndpoint "text","Contact Properties","TopLeftQuadrant"
+end AddUser
+

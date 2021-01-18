@@ -1,6 +1,6 @@
 ﻿to handle ClickEvent DataType,MyItem,MyArea
 	if MyArea is empty then Set MyArea to "FullScreen"
-	Click {(DataType):MyItem,waitfor:20,searchrectangle:ScreenPart(MyArea)}
+	Click {(DataType):MyItem,waitfor:50,searchrectangle:ScreenPart(MyArea)}
 end ClickEvent
 
 to handle ClickFormEvent DataType,MyItem,MyArea
@@ -20,6 +20,7 @@ to handle VerifyEndpoint DataType,MyItem,MyArea
 end VerifyEndpoint
 
 to handle CloseBrowser
+	Run "WebEnv/SetEnvironment".DeviceConnection
 	typetext windowsKey,"r"
 	wait 1
 	typetext "taskkill /IM"&&"chrome.exe",return
